@@ -43,7 +43,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 
 }
 .nav-title{
@@ -55,6 +55,7 @@ nav{
 nav > ul{
     display:flex;
     align-items: center;
+    /* padding-right: 30px; */
 }
 nav li{
     list-style: none;
@@ -83,8 +84,9 @@ nav a{
 }
 .banner .profile-picture{
     width: 500px;
-    padding-right: 55px;
+    margin-right: 20px;
 }
+
 .banner-greeting{
     font-size: 45px;
     color: #474747;
@@ -100,15 +102,50 @@ nav a{
     margin-bottom: 25px;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about{
     background-color:#fff8f3;
     padding: 130px;
     margin: 130px 0px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.info-description{
+    margin-top: 5px;
+    font-weight: bold;
+
+}
 .section-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+/* what i do section */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+#what-do{
+    margin-bottom:-20px;
+}
+/* skills part */
+.skills-container{
+   display: flex;
+   
+}
+.skill{
+    padding:30px;
+    gap: 24px; 
 }

@@ -29,6 +29,7 @@ body{
     padding: 15px 35px;
     color:#fd6e0a;
 }
+
 #contact:hover{
         background-color: RoyalBlue;
 }
@@ -82,9 +83,9 @@ nav a{
 /* header related styles */
 .header{
     background-color: #fff8f3;
-    background-image: url('../image/header_bg.png');
+    background-image: url('../image/header_bg.png'), url('../image/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 /* banner related style */
 .banner{
